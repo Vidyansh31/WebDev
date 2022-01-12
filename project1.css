@@ -1,0 +1,172 @@
+/*----------------------------
+        Default values
+      
+         font-family: 'Ubuntu', sans-serif;
+
+         Colors:
+         1) Midnight Blue = #2c3e50
+         2) alizarin = #e74c3c
+ ------------------------------*/       
+
+ /*-------------------------------
+       Basic setup
+  --------------------------------*/
+ /*-- * means this property will apply to the whole content*/
+  * {
+      box-sizing: border-box;   
+      margin: 0;
+      padding: 0;
+  }
+
+  body{
+      font-family:'Ubuntu', sans-serif; ;
+      background-color: #2c3e50;;
+  }
+
+  li {
+      list-style: none;
+      display: inline-block; 
+  }
+
+  a {
+      text-decoration: none;
+  }
+   
+  .container {
+      max-width: 1400 px;
+      margin: 0 auto;
+      background-color: white;
+  }
+
+   /*-------------------------------
+       Header
+  --------------------------------*/
+  h1 {
+      
+      text-align: center;
+      color: #2c3e50;
+      padding: 20px 0px;
+  }
+
+  h1 >span {
+      color: #e74c3c;
+  }
+
+  /* nav menu*/
+
+  ul.nav-menu {
+      text-align: center;
+      text-transform:uppercase ;
+      background-color: #f8f5f5f8;
+    
+  }
+
+ .nav-menu li
+ {
+     padding: 20px;
+ }
+
+ .nav-menu a
+ {
+     color: #2c3e50;
+ }
+
+ .nav-menu a:hover {
+     color: #e74c3c;
+ }
+
+   /*-------------------------------
+       section
+  --------------------------------*/
+  .about-text {
+      margin:0px 50px;
+  }
+  .about-text h2 {
+      color: #e74c3c;
+      font-weight: 300;
+      font-size: 30px;
+      margin: 30px 0px;
+    
+  }
+
+  .about-text p{
+      font-weight: 400;
+      color: #2c3e50;
+      margin-bottom: 10px;
+  }
+
+  .about-text a {
+    padding: auto;
+      color: #e74c3c;
+      font-weight: 700;
+  }
+  .about-text a:hover{
+        color: #2c3e50;
+  }
+
+  /*-------------------------------
+       section food
+  --------------------------------*/
+  .show-food {
+      margin-top: 80px;
+      padding: 0px 30px;
+  }
+
+  .food
+  {
+      width: 100%;
+      background-color: #2c3e50;
+      margin-bottom: 30px;
+      display: flex;
+      color: white;
+  }
+
+  .food:nth-child(2)
+  {
+      background-color: #e74c3c;
+  }
+
+  .food img{
+      
+      height: 197px;
+      width: 294px;
+  }
+  .foodtext {
+      padding: 20px;
+      
+  }
+
+  .foodtext h2 {
+      text-transform: uppercase;
+    font-weight: 300;
+    font-size: 30px;
+    margin: 10px 0px;
+  
+  }
+  .foodtext p {
+      font-weight: 400px;
+      font-size: 16px
+  }
+
+  /*-------------------------
+           Big image
+   -----------------------*/
+   .bigimg 
+   {
+       width: 50%;
+       margin:  auto;
+   }        
+   .bigimg img{
+       width: 100%;
+   }
+
+   /*------------------------------
+        Footer
+        ------------------*/
+
+      footer {
+          background-color: #e74c3c;
+          text-align: center;
+          color: white;
+          padding: 5px;
+      }  
